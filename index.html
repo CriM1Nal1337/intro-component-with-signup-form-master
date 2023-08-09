@@ -5,6 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/variables.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
 
@@ -16,15 +23,16 @@
         but understanding how developers think is invaluable.</p>
     </div>
     <div class="container-right">
-      <div class="offer"><span class="wheight">Try it free 7 days</span> then $20/mo. thereafter</div>
-      <form action="" method="get">
+      <div class="offer"><p><span class="wheight">Try it free 7 days</span> then $20/mo. thereafter</p></div>
+      <form class="form"  method="get">
         <input type="text" name="f-name" id="f-name" placeholder="First Name">
         <input type="text" name="l-name" id="l-name" placeholder="Last Name">
         <input type="email" name="email" id="email" placeholder="Email Address">
         <input type="password" name="password" id="password" placeholder="Password">
         <button class="btn" id="btn">Claim your free trial</button>
         <div class="accept-terms">
-          <p class="accept">By clicking the button, you are agreeing to our</p><a href="#" class="terms">Terms and Services</a>
+          <p class="accept">By clicking the button, you are agreeing to our <a href="#" class="terms">Terms and
+            Services</a></p>
         </div>
       </form>
     </div>
@@ -36,4 +44,5 @@
   </footer>
   <script src="src/js/index.js"></script>
 </body>
+
 </html>

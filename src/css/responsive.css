@@ -1,0 +1,61 @@
+@media (max-width: 1120px) {
+    .container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .container-left{
+        text-align: center;
+    }
+
+    .container-right{
+        margin: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    body{
+        background: var(--Red) url(../images/bg-intro-mobile.png);
+    }
+
+    .container-left{
+        width: 32rem;
+    }
+
+    .container-left .title{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .container-right{
+        max-width: 32rem;
+    }
+
+    .container-right .offer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-right .offer p{
+        width: 20rem;
+    }
+
+    .container-right .form{
+        padding: 2.5rem;
+        max-width: 32rem;
+        max-height: 40rem;
+    }
+
+    .container-right .form .btn{
+        padding: 1.4rem;
+    }
+
+    .container-right .form .accept-terms {
+        text-align: center;
+    }
+
+    .container-right .form input{
+        height: 7rem;
+    }
+}

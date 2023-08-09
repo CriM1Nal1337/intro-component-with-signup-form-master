@@ -1,0 +1,104 @@
+body {
+    height: 100vh;
+    background: var(--Red) url(../images/bg-intro-desktop.png);
+    font-family: 'Poppins', sans-serif;
+}
+
+body,
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-left {
+    width: 50rem;
+}
+
+.container-left .title {
+    font-size: 4.9rem;
+    color: #FFFFFF;
+    line-height: 6rem;
+    margin-bottom: 2.2rem;
+}
+
+.container-left .p {
+    font-size: 1.6rem;
+    color: #FFFFFF;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    margin-left: 7rem
+}
+
+.container-right .offer {
+    background-color: var(--Blue);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 0px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+}
+
+.offer .wheight {
+    font-weight: 700;
+}
+
+.container-right .form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #FFFFFF;
+    width: 54rem;
+    height: 47.5rem;
+    border-radius: 1rem;
+    padding: 4rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 0px;
+}
+
+.container-right .form input {
+    height: 5.5rem;
+    padding-left: 3rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border: 1px solid var(--GrayishBlue);
+    border-radius: 0.5rem;
+}
+
+.container-right .form .btn {
+    background-color: var(--Green);
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 0;
+    text-align: center;
+    box-shadow: hsl(160, 66%, 38%) 0px -5px 0px 0px inset;
+}
+
+.container-right .form .accept-terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-right .form .accept {
+    color: var(--GrayishBlue);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.container-right .form .terms {
+    text-decoration: none;
+    color: var(--Red);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
