@@ -23,16 +23,24 @@
         but understanding how developers think is invaluable.</p>
     </div>
     <div class="container-right">
-      <div class="offer"><p><span class="wheight">Try it free 7 days</span> then $20/mo. thereafter</p></div>
-      <form class="form"  method="get">
-        <input type="text" name="f-name" id="f-name" placeholder="First Name">
-        <input type="text" name="l-name" id="l-name" placeholder="Last Name">
-        <input type="email" name="email" id="email" placeholder="Email Address">
-        <input type="password" name="password" id="password" placeholder="Password">
+      <div class="offer">
+        <p><span class="wheight">Try it free 7 days</span> then $20/mo. thereafter</p>
+      </div>
+      <form class="form" method="get">
+        <div class="inputs">
+          <input type="text" name="f-name" id="f-name" class="input" placeholder="First Name">
+          <span class="span-error hide">First name cannot be empty</span>
+          <input type="text" name="l-name" id="l-name" class="input" placeholder="Last Name">
+          <span class="span-error hide">Last name cannot be empty</span>
+          <input type="email" name="email" id="email" class="input" placeholder="Email Address">
+          <span class="span-error hide">Looks like this is not an email</span>
+          <input type="password" name="password" class="input" id="password" placeholder="Password">
+          <span class="span-error hide">Password cannot be empty</span>
+        </div>
         <button class="btn" id="btn">Claim your free trial</button>
         <div class="accept-terms">
           <p class="accept">By clicking the button, you are agreeing to our <a href="#" class="terms">Terms and
-            Services</a></p>
+              Services</a></p>
         </div>
       </form>
     </div>

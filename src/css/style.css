@@ -9,7 +9,7 @@ body,
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .container-left {
@@ -52,7 +52,6 @@ body,
 .container-right .form {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     background-color: #FFFFFF;
     width: 54rem;
     height: 47.5rem;
@@ -68,6 +67,8 @@ body,
     font-size: 1.6rem;
     border: 1px solid var(--GrayishBlue);
     border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 46rem;
 }
 
 .container-right .form .btn {
@@ -82,12 +83,14 @@ body,
     border: 0;
     text-align: center;
     box-shadow: hsl(160, 66%, 38%) 0px -5px 0px 0px inset;
+    
 }
 
 .container-right .form .accept-terms {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .container-right .form .accept {
@@ -101,4 +104,28 @@ body,
     color: var(--Red);
     font-weight: 600;
     font-size: 1.1rem;
+}
+
+.container-right .form span {
+    color: var(--Red);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-right .form .inputs .border-red {
+    border: 1px solid var(--Red);
+    color: var(--Red);
+}
+
+.container-right .form .inputs .border-red::placeholder {
+    color: var(--Red);
+}
+
+.container-right .form .inputs .border-red:focus-visible {
+    border: 2px solid var(--Red);
+    outline: none;
+}
+
+.hide{
+    visibility: hidden;
 }

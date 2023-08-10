@@ -56,6 +56,12 @@
     }
 
     .container-right .form input{
-        height: 7rem;
+        height: 4.5rem;
+        width: 100%;
+    }
+
+    .container-right .accept-terms{
+        text-align: center;
+        padding: 0 1rem;
     }
 }
